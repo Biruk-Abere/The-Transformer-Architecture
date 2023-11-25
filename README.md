@@ -1,36 +1,36 @@
-THE TRANSFORMER ARCHITECTURE 
+# THE TRANSFORMER ARCHITECTURE 
 
-Tutorial Overview
-Introduction to Encoder-Decoder Framework in Machine Translation
-Emergence and Role of Recurrent Architectures: LSTMs and GRUs
-RNNs and Their Functionality in Sequential Data Modeling
-Exploring the Encoder-Decoder Architecture for Language Translation
-Addressing the Information Bottleneck in Encoder-Decoder Models
-Introduction to Attention Mechanisms in NLP
-The Conceptual Foundation of Attention in Neural Networks
-Visualization of Attention Weights in Machine Translation
-In-Depth Analysis of Attention Mechanisms in Encoder-Decoder Models
-Enhancements in Machine Translation with Joint Alignment and Translation
-Challenges Posed by Long Sentences in Translation Models
-The Mathematical Foundations of Attention Weights
-Role and Implementation of Softmax in Attention Weight Calculation
-Expanding Attention Models to Image Captioning Applications
-Defining and Understanding Self-Attention Mechanisms
-The Role of Parallel Computing in Transformer Networks
-Queries, Keys, and Values in the Self-Attention Mechanism
-Multi-Head Attention: Concept and Application
-Importance of Stacking Layers in Transformer Encoder Design
-Detailed Overview of Positional Encoding Techniques
-The Transformer Decoder: Architecture and Functionalities
-Importance of Positional Encoding in Transformer Models
-Scale and Impact of Dot Product Attention in Transformers
-The Significance of Layer Normalization in Transformers
-Understanding the Fully Connected Feed-Forward Networks in Transformers
-Addressing Long-Range Dependencies in Transformer Architecture
-The Transformer Architecture: Comprehensive Overview
-Introduction to vision transformers
-Implementing Transformers in PyTorch
-Future Directions and Applications of Transformer Models
+## Tutorial Overview
+* Introduction to Encoder-Decoder Framework in Machine Translation
+* Emergence and Role of Recurrent Architectures: LSTMs and GRUs
+* RNNs and Their Functionality in Sequential Data Modeling
+* Exploring the Encoder-Decoder Architecture for Language Translation
+* Addressing the Information Bottleneck in Encoder-Decoder Models
+* Introduction to Attention Mechanisms in NLP
+* The Conceptual Foundation of Attention in Neural Networks
+* Visualization of Attention Weights in Machine Translation
+* In-Depth Analysis of Attention Mechanisms in Encoder-Decoder Models
+* Enhancements in Machine Translation with Joint Alignment and Translation
+* Challenges Posed by Long Sentences in Translation Models
+* The Mathematical Foundations of Attention Weights
+* Role and Implementation of Softmax in Attention Weight Calculation
+* Expanding Attention Models to Image Captioning Applications
+* Defining and Understanding Self-Attention Mechanisms
+* The Role of Parallel Computing in Transformer Networks
+* Queries, Keys, and Values in the Self-Attention Mechanism
+* Multi-Head Attention: Concept and Application
+* Importance of Stacking Layers in Transformer Encoder Design
+* Detailed Overview of Positional Encoding Techniques
+* The Transformer Decoder: Architecture and Functionalities
+* Importance of Positional Encoding in Transformer Models
+* Scale and Impact of Dot Product Attention in Transformers
+* The Significance of Layer Normalization in Transformers
+* Understanding the Fully Connected Feed-Forward Networks in Transformers
+* Addressing Long-Range Dependencies in Transformer Architecture
+* The Transformer Architecture: Comprehensive Overview
+* Introduction to vision transformers
+* Implementing Transformers in PyTorch
+* Future Directions and Applications of Transformer Models
 
 
 Authors :- Bezawit Abebaw and Biruk Abere 

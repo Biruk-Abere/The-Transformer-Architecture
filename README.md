@@ -218,9 +218,10 @@ The goal of self attention is, if we have say a sentence of five words, we will 
 
 Let’s use our running example :- 
 
-X<1>      X<2>          X<3>             X<4>              X<5>
 
-Jane      Visite           l’Afrique         en             Septembre
+    * X<1>      X<2>          X<3>             X<4>              X<5>
+    * Jane      Visite           l’Afrique         en             Septembre
+    
 
 The running example we are going to use is take the word l’Afrique in this sentence then we will step through on how the transformer network’s self attention mechanism allows us to compute A<3> for this word and then the same thing for other words in the sentence as well. Now as we know, one way to represent l’Afrique would be to just look up the word embedding for l’Afrique or Africa as a site of historical interests or as a daily destination or as a world’s second largest content. 
 
@@ -247,9 +248,9 @@ The attention weights are computed by taking the dot product of the query vector
 
 If X<3> is the word embedding for l’Afrique, the way this vector is computed is a learned matrix. 
 
-Q<3> = Wq X<3>
-K<3> = Wk X<3>
-V<3> = Wv X<3>
+      * Q<3> = Wq X<3>
+      * K<3> = Wk X<3>
+      * V<3> = Wv X<3>
 
 
 These matrices Wq , Wk , Wv  are parameters of this learning algorithm and they allow you to pull these query, key and value vectors for each word but what are these query, key and value. We can think of them as a loose analogy to databases where we can have queries and key – value pairs.  

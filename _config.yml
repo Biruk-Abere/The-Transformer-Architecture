@@ -1,20 +1,42 @@
-theme: jekyll-theme-cayman
-title: My Awesome Project
-description: An engaging description of my project.
+remote_theme: "mmistakes/minimal-mistakes"
+title: "My Personal Blog"
+description: "A blog about my thoughts and experiences."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yourusername.github.io" # the base hostname & protocol for your site
 
-# Optional, but recommended settings
-google_analytics: UA-XXXXX-Y # Replace with your Google Analytics ID
-twitter_username: yourusername # Your Twitter handle
-github_username: yourusername # Your GitHub username
-
-# Customization options specific to jekyll-theme-cayman
-show_downloads: true # Show or hide the download buttons
-logo: assets/images/logo.png # Path to a custom logo
+author:
+  name: "Your Name"
+  email: "your-email@example.com"
+  twitter: "yourusername"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+
+# Theme customization
+theme:
+  name: "minimal-mistakes"
+  skin: "default" # Skins: air, aqua, contrast, dark, dirt, neon, plum, sun
+  minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "plum", "sun"
+  layout: "single"
+  classes: "wide"
+  header:
+    overlay_color: "#333"
+    overlay_filter: "0.5"
+    overlay_image: "/assets/images/banner.jpg"
+  footer:
+    profile_image: "/assets/images/profile.jpg"
+    profile_link: "https://yourusername.github.io"
+
+# Navigation Bar
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "About"
+    url: "/about/"

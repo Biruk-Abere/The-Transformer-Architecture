@@ -1,1 +1,20 @@
 theme: jekyll-theme-cayman
+title: My Awesome Project
+description: An engaging description of my project.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+# Optional, but recommended settings
+google_analytics: UA-XXXXX-Y # Replace with your Google Analytics ID
+twitter_username: yourusername # Your Twitter handle
+github_username: yourusername # Your GitHub username
+
+# Customization options specific to jekyll-theme-cayman
+show_downloads: true # Show or hide the download buttons
+logo: assets/images/logo.png # Path to a custom logo
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed

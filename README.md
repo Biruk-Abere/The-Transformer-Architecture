@@ -1,5 +1,3 @@
-# THE TRANSFORMER ARCHITECTURE 
-
 ## Tutorial Overview
 * Introduction to Encoder-Decoder Framework in Machine Translation
   

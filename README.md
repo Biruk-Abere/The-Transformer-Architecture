@@ -71,6 +71,8 @@ Prior to transformers, recurrent architectures such as Long short term memories(
 
 An RNN receives some input (which could be a word or character), feeds it through the network and outputs a vector called the hidden state. At the same time, the model feeds some information back to itself through the feedback loop, which it can then use in the next step. These can be more clearly seen if we “unroll” the loop as shown on the right side of the figure. The RNN passes information about its state at each step to the next operation in the sequence. This allows an RNN to keep track of information from previous steps and use it for its output predictions. 
 
+![ALT](image12.png)
+
 
 
 These architectures were (continue to be) widely used for NLP tasks, speech processing and time series. One area where RNN’s played an important role was in the development of machine translation systems, where the objective is to map a sequence of words in one language to another. This kind of task is usually tackled with an encoder – decoder or sequence to sequence (seq2seq) architecture, which is well suited for situations where the input and output are both sequences of arbitrary length. The job of the encoder is to encode the information from the input sequence into a numerical representation that is often called the last hidden state (context vector). This state is then passed to the decoder, which generates the output sequence one at a time. 
